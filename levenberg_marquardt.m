@@ -21,7 +21,6 @@ n3=20;
 n4=1;
 
 eta=0.01;
-
 epoch=40;
 
 mse_train=zeros(1,epoch);
