@@ -66,9 +66,9 @@ for t=1:epoch
         t2=o1.*(1-o1);
         B=diag(t2);
         
-        %             w1=w1-eta*error(i)*-1*(w3*A*w2*B)'*input;
-        %             w2=w2-eta*error(i)*-1*(w3*A)'*o1';
-        %             w3=w3-eta*error(i)*-1*1*o2';
+        % w1=w1-eta*error(i)*-1*(w3*A*w2*B)'*input;
+        % w2=w2-eta*error(i)*-1*(w3*A)'*o1';
+        % w3=w3-eta*error(i)*-1*1*o2';
        
         pw1=-1*(w3*A*w2*B)'*input;
         pw2=-1*(w3*A)'*o1';
