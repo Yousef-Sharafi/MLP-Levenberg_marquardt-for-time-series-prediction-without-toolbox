@@ -69,6 +69,7 @@ for t=1:epoch
         %             w1=w1-eta*error(i)*-1*(w3*A*w2*B)'*input;
         %             w2=w2-eta*error(i)*-1*(w3*A)'*o1';
         %             w3=w3-eta*error(i)*-1*1*o2';
+       
         pw1=-1*(w3*A*w2*B)'*input;
         pw2=-1*(w3*A)'*o1';
         pw3=-1*1*o2';
